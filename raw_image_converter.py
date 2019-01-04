@@ -1,5 +1,3 @@
-from PIL import Image
-import cv2 
 import numpy as np 
 import os
 import rawpy
@@ -21,9 +19,4 @@ for i,f,h in os.walk("."):
             except Exception as e:
                 print(e)
 
-       
-# img = np.fromfile("yourImage.raw", dtype=np.uint32)
-# rawData = open("foo.raw", 'rb').read()
-# imgSize = (703,1248)# the image size
-# img = Image.frombytes('L', imgSize, rawData)
-# img.save("foo.jpg")
+  
